@@ -1,0 +1,4 @@
+name: Guidance
+version: '${project.version}'
+main: org.nano.guidance.Guidance
+api-version: '1.21'
