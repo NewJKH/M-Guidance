@@ -2,14 +2,10 @@ package org.nano.guidance.util.message.color;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextDecoration;
-import org.bukkit.Material;
-import org.nano.guidance.util.item.builder.ItemBuilder;
 import org.nano.guidance.util.message.entity.StringColor;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class ColorUtil {
 
