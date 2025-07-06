@@ -14,12 +14,16 @@ public final class Guidance extends JavaPlugin {
         entity
 
         ...?
-
-
      */
+    @Override
+    public void onLoad(){
+        super.onLoad();
+        Thread.currentThread().setContextClassLoader(getClass().getClassLoader());
 
+    }
     @Override
     public void onEnable() {
+
         Objects.requireNonNull(getCommand("길라잡이")).setExecutor(new GuidanceCommand());
 
     }
@@ -28,4 +32,6 @@ public final class Guidance extends JavaPlugin {
     public void onDisable() {
 
     }
+
+
 }
